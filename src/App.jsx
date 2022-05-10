@@ -34,6 +34,10 @@ const App = () => {
     fetchTours();
   }, []);
 
+  useEffect(() => {
+    document.title = "Tours card"
+  })
+
   if (isLoading) {
     return (
       <main className="flex justify-center pt-20">
