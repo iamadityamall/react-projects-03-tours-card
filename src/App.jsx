@@ -52,7 +52,7 @@ const App = () => {
 
   if (tours.length === 0) {
     return (
-      <main className="h-screen flex justify-center items-center flex-col space-y-10">
+      <main className="h-screen flex justify-center items-center flex-col space-y-10 ">
         <h3 className="text-2xl text-blue-700 font-mono py-2">no tours left</h3>
         <button onClick={() => fetchTours()} className="p-4 text-2xl text-white bg-blue-900 rounded-xl">Reset tours</button>
       </main>
@@ -60,7 +60,7 @@ const App = () => {
   }
 
   return (
-    <main className="flex flex-col items-center pt-20">
+    <main className="flex flex-col items-center pt-20 justify-center">
       <header className="flex flex-col text-center space-y-2">
         <h1 className="text-4xl">Ours Tours</h1>
         <div className="h-1 bg-blue-400" />

@@ -5,7 +5,7 @@ const Tour = ({ id, name, price, image, removeTour, info }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <article className="flex flex-col border-2 w-96 justify-between">
+    <article className="flex flex-col border-2 w-auto justify-between">
       <header>
         <img src={image} alt={name} className="object-cover w-full h-56" />
       </header>
